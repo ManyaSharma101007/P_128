@@ -3,6 +3,7 @@ from selenium.webdriver.common.by import By
 from bs4 import BeautifulSoup
 import time
 import pandas as pd
+import requests
 
 START_URL = "https://en.wikipedia.org/wiki/List_of_brown_dwarfs"
 

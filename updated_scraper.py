@@ -16,9 +16,9 @@ time.sleep(10)
 
 new_stars_data = []
 
+page = requests.get(hyperlink)
 def scrape_more_data(hyperlink):
     try : 
-        page = requests.get(hyperlink)
         soup = BeautifulSoup(page.content,"html_parser")
         temp_list = [] 
 
